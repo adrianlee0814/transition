@@ -7,3 +7,8 @@ title: Liquid objects tags and filters
 
 
 ## Liquid lets you do a lot
+{{ page.title | upcase }}
+  
+{{ page.title | remove: "and" }}
+
+{{ "I wish I was an Oscar Myers weiner." | truncatewords: 4 }}
